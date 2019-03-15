@@ -1,0 +1,13 @@
+img {
+    animation: dizzy 1s infinite linear;
+}
+
+@keyframes dizzy {
+    from {
+        transform: rotate(0);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
